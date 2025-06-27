@@ -1,26 +1,23 @@
-# 🤖 CitizenAI – AI for Smarter Civic Engagement
+🤖 CitizenAI – Smarter AI for Civic Engagement
+CitizenAI is a powerful Generative AI tool designed to promote civic awareness and interaction by answering public policy, legal, and governance-related questions. It leverages IBM's Granite series language models through Hugging Face to deliver high-quality responses, perform sentiment analysis, and collect user feedback — all wrapped in an intuitive Gradio-based UI.
 
-CitizenAI is an AI-powered civic platform that enables users to ask questions, analyze sentiment, and report community concerns. It leverages IBM Granite models with a Flask-based interface to promote smarter citizen interaction and public communication.
+🚀 Features
+💬 AI Chat Interface – Ask civic-related or public governance questions and get intelligent, context-aware responses.
 
-## 🚀 Features
+🧠 Powered by IBM Granite Models – Uses ibm-granite/granite-3.3-2b-instruct for high-quality text generation.
 
-- 💬 **AI Chat Interface** – Ask civic-related questions and get AI-generated responses.
-- 📊 **Sentiment Analysis** – Understand the tone of public feedback.
-- 📌 **Concern Reporting** – Submit issues or suggestions directly through the platform.
-- 📈 **Interactive Dashboard** – Visualize citizen engagement and feedback.
-- 🌐 **User Authentication** – Secure login system for tracking user inputs.
+✍️ Feedback System – Users can rate responses and add suggestions to help improve the system.
+
+📦 Offline Usage – Downloads and loads the model locally to optimize performance and reduce dependency on cloud access.
+
+🌐 Gradio UI – Clean, shareable interface with interactive components.
 
 ## 🛠️ Tech Stack
 
-- **Backend:** Python, Flask
-- **Frontend:** HTML, CSS, Jinja2 Templates
-- **AI Model:** IBM Granite via Hugging Face API or local model
-- **Visualization:** Chart.js / Plotly
-- **Deployment:** GitHub + Render / Hugging Face Spaces / Local
-
-## 🔧 Setup Instructions
-
-1. **Clone the Repository**
-   ```bash
-   git clone https://github.com/yourusername/CitizenAI.git
-   cd CitizenAI
+| Layer        | Technology                                |
+|--------------|--------------------------------------------|
+| Backend      | Python, Hugging Face Transformers         |
+| Model        | IBM Granite 3.3-2B Instruct               |
+| Interface    | Gradio                                    |
+| Tokenizer    | AutoTokenizer from Hugging Face           |
+| Deployment   | Google Colab / Local Python Runtime       |
